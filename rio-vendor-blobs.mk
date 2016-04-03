@@ -271,26 +271,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/Alice_fw.bin:system/etc/firmware/Alice_fw.bin \
     vendor/huawei/rio/proprietary/etc/firmware/athena_boe_fw.img:system/etc/firmware/athena_boe_fw.img \
     vendor/huawei/rio/proprietary/etc/firmware/athena_jdi_fw.img:system/etc/firmware/athena_jdi_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/c8818_lensone_fw.img:system/etc/firmware/c8818_lensone_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/c8818_ofilm_fw.img:system/etc/firmware/c8818_ofilm_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/c8818_truly_fw.img:system/etc/firmware/c8818_truly_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/cherry_gis_fw.img:system/etc/firmware/cherry_gis_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/cherry_ofilm_fw.img:system/etc/firmware/cherry_ofilm_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/cherry_yassy_fw.img:system/etc/firmware/cherry_yassy_fw.img \
     vendor/huawei/rio/proprietary/etc/firmware/ATH_miniBoot.bin:system/etc/firmware/ATH_miniBoot.bin \
     vendor/huawei/rio/proprietary/etc/firmware/ATH_TBM_Latour2.bin:system/etc/firmware/ATH_TBM_Latour2.bin \
     vendor/huawei/rio/proprietary/etc/firmware/g620A_eely_fw.img:system/etc/firmware/g620A_eely_fw.img \
     vendor/huawei/rio/proprietary/etc/firmware/g620A_ofilm_fw.img:system/etc/firmware/g620A_ofilm_fw.img \
     vendor/huawei/rio/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/huawei/rio/proprietary/etc/firmware/kiw-HB396481EBC_ATL_SCUD.fw:system/etc/firmware/kiw-HB396481EBC_ATL_SCUD.fw \
-    vendor/huawei/rio/proprietary/etc/firmware/kiw-HB396481EBC_SONY_SWD.fw:system/etc/firmware/kiw-HB396481EBC_SONY_SWD.fw \
     vendor/huawei/rio/proprietary/etc/firmware/Kiwi_fw.bin:system/etc/firmware/Kiwi_fw.bin \
     vendor/huawei/rio/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/huawei/rio/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/huawei/rio/proprietary/etc/firmware/shine_lensone_fw.img:system/etc/firmware/shine_lensone_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/shine_ofilm_fw.img:system/etc/firmware/shine_ofilm_fw.img \
-    vendor/huawei/rio/proprietary/etc/firmware/shine_truly_fw.img:system/etc/firmware/shine_truly_fw.img \
     vendor/huawei/rio/proprietary/etc/firmware/Rio_fw.bin:system/etc/firmware/Rio_fw.bin \
     vendor/huawei/rio/proprietary/etc/firmware/RIO_miniBoot.bin:system/etc/firmware/RIO_miniBoot.bin \
-    vendor/huawei/rio/proprietary/etc/firmware/RIO_TBM_Latour2.bin:system/etc/firmware/RIO_TBM_Latour2.bin \
-    vendor/huawei/rio/proprietary/etc/firmware/T2A_fw.bin:system/etc/firmware/T2A_fw.bin
+    vendor/huawei/rio/proprietary/etc/firmware/RIO_TBM_Latour2.bin:system/etc/firmware/RIO_TBM_Latour2.bin
