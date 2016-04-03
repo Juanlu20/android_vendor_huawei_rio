@@ -258,6 +258,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/rio/proprietary/vendor/etc/pdc_RIO_for_nfc.txt:system/vendor/etc/pdc_RIO_for_nfc.txt \
     vendor/huawei/rio/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/huawei/rio/proprietary/etc/srs/dts.lic:system/etc/srs/dts.lic \
+    vendor/huawei/rio/proprietary/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
     vendor/huawei/rio/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
