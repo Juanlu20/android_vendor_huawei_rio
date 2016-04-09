@@ -256,8 +256,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/huawei/rio/proprietary/etc/srs/dts.lic:system/etc/srs/dts.lic \
     vendor/huawei/rio/proprietary/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
-    vendor/huawei/rio/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/huawei/rio/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/huawei/rio/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
