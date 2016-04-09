@@ -217,22 +217,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/huawei/rio/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/huawei/rio/proprietary//sbin/chargelog.sh:root//sbin/chargelog.sh \
-    vendor/huawei/rio/proprietary//sbin/e2fsck_s:root//sbin/e2fsck_s \
-    vendor/huawei/rio/proprietary//sbin/fsck_msdos_s:root//sbin/fsck_msdos_s \
-    vendor/huawei/rio/proprietary//sbin/hdbd:root//sbin/hdbd \
-    vendor/huawei/rio/proprietary//sbin/huawei_mmc_monitor:root//sbin/huawei_mmc_monitor \
-    vendor/huawei/rio/proprietary//sbin/huawei_version:root//sbin/huawei_version \
-    vendor/huawei/rio/proprietary//sbin/hw_scsi_switch:root//sbin/hw_scsi_switch \
-    vendor/huawei/rio/proprietary//sbin/libqmi_oem_main:root//sbin/libqmi_oem_main \
-    vendor/huawei/rio/proprietary//sbin/rmt_oeminfo:root//sbin/rmt_oeminfo \
-    vendor/huawei/rio/proprietary//sbin/rmt_storage:root//sbin/rmt_storage \
-    vendor/huawei/rio/proprietary//sbin/usb_update:root//sbin/usb_update \
+    vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
+    vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
+    vendor/huawei/rio/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/rio/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
+    vendor/huawei/rio/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/huawei/rio/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/huawei/rio/proprietary/lib/libdmd_report.so:system/lib/libdmd_report.so \
     vendor/huawei/rio/proprietary/lib64/libdmd_report.so:system/lib64/libdmd_report.so \
     vendor/huawei/rio/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
+    vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
+    vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
