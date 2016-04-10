@@ -489,4 +489,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/camera/tornado/cfgpath.config:system/etc/camera/tornado/cfgpath.config \
     vendor/huawei/rio/proprietary/etc/camera/tornado/sddefault.xml:system/etc/camera/tornado/sddefault.xml \
     vendor/huawei/rio/proprietary/etc/camera/tracking/targettracking.xml:system/etc/camera/tracking/targettracking.xml \
-    vendor/huawei/rio/proprietary/etc/camera/camsensor_version_huawei:system/etc/camera/camsensor_version_huawei
+    vendor/huawei/rio/proprietary/etc/camera/camsensor_version_huawei:system/etc/camera/camsensor_version_huawei \
+    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw
