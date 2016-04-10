@@ -393,7 +393,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELashUpper/template_els_up_256_12.dat:system/etc/camera/makeup/ELashUpper/template_els_up_256_12.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELashUpper/template_els_up_256_14.dat:system/etc/camera/makeup/ELashUpper/template_els_up_256_14.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_128_01.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_128_01.dat \
-    vendor/huawei/rio/proprietary/etc/camera/makeup/ElinerLower/template_emu_line_low_128_04.dat:system/etc/camera/makeup/ElinerLower/template_emu_line_low_128_04.dat \
+    vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_128_04.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_128_04.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_128_05.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_128_05.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_128_06.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_128_06.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_128_07.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_128_07.dat \
@@ -409,7 +409,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_256_12.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_256_12.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerLower/template_emu_line_low_256_14.dat:system/etc/camera/makeup/ELinerLower/template_emu_line_low_256_14.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_01.dat:system/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_01.dat \
-    vendor/huawei/rio/proprietary/etc/camera/makeup/ElinerUpper/template_emu_line_up_128_04.dat:system/etc/camera/makeup/ElinerUpper/template_emu_line_up_128_04.dat \
+    vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_04.dat:system/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_04.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_05.dat:system/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_05.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_06.dat:system/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_06.dat \
     vendor/huawei/rio/proprietary/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_07.dat:system/etc/camera/makeup/ELinerUpper/template_emu_line_up_128_07.dat \
@@ -495,7 +495,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/huawei/rio/proprietary/lib/hw/camera.msm8916.omron.so:system/lib/hw/camera.msm8916.so \
-    vendor/huawei/rio/proprietary/lib/libBestShots.so:system/lib/libBestShots.so \
+    vendor/huawei/rio/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/rio/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/rio/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
     vendor/huawei/rio/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
