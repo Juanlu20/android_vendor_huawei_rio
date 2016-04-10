@@ -493,4 +493,40 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw
+    vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/huawei/rio/proprietary/lib/hw/camera.msm8916.omron.so:system/lib/hw/camera.msm8916.so \
+    vendor/huawei/rio/proprietary/lib/libBestShots.so:system/lib/libBestShots.so \
+    vendor/huawei/rio/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
+    vendor/huawei/rio/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
+    vendor/huawei/rio/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
+    vendor/huawei/rio/proprietary/lib/libFaceBeautyMeiwoJNI.so:system/lib/libFaceBeautyMeiwoJNI.so \
+    vendor/huawei/rio/proprietary/lib/libRefocusContrastPosition.so:system/lib/libRefocusContrastPosition.so \
+    vendor/huawei/rio/proprietary/lib/libSFBE.so:system/lib/libSFBE.so \
+    vendor/huawei/rio/proprietary/lib/libSmartAE.so:system/lib/libSmartAE.so \
+    vendor/huawei/rio/proprietary/lib/libTHImageOCR.so:system/lib/libTHImageOCR.so \
+    vendor/huawei/rio/proprietary/lib/lib_camera_hall_overturn.so:system/lib/lib_camera_hall_overturn.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_af.so:system/lib/libcamera_af.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_af_ATH.so:system/lib/libcamera_af_ATH.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_hwaaf.so:system/lib/libcamera_hwaaf.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_ipp_algo_dflash.so:system/lib/libcamera_ipp_algo_dflash.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
+    vendor/huawei/rio/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
+    vendor/huawei/rio/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/huawei/rio/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
+    vendor/huawei/rio/proprietary/lib/libhdr.so:system/lib/libhdr.so \
+    vendor/huawei/rio/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/huawei/rio/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/huawei/rio/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_ldc.so:system/lib/libmrc_cg_ldc.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_myFilter.so:system/lib/libmrc_cg_myFilter.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_niceFood.so:system/lib/libmrc_cg_niceFood.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_post_mfdenoise.so:system/lib/libmrc_cg_post_mfdenoise.so \
+    vendor/huawei/rio/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+    vendor/huawei/rio/proprietary/lib/libposthdr.so:system/lib/libposthdr.so \
+    vendor/huawei/rio/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/huawei/rio/proprietary/lib/libtrack.so:system/lib/libtrack.so \
+    vendor/huawei/rio/proprietary/lib/libtwocr32.so:system/lib/libtwocr32.so \
+    vendor/huawei/rio/proprietary/lib64/lib_camera_hall_overturn.so:system/lib64/lib_camera_hall_overturn.so \
+    vendor/huawei/rio/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so
