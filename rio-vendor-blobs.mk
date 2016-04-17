@@ -138,9 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/rio/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/huawei/rio/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/huawei/rio/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/huawei/rio/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/huawei/rio/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/huawei/rio/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/huawei/rio/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
