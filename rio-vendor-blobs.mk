@@ -232,8 +232,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/bin/oeminfo_server:system/bin/oeminfo_server \
     vendor/huawei/rio/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/huawei/rio/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/huawei/rio/proprietary/lib/libdmd_report.so:system/lib/libdmd_report.so \
-    vendor/huawei/rio/proprietary/lib64/libdmd_report.so:system/lib64/libdmd_report.so \
+    vendor/huawei/rio/proprietary/lib/libdmd.so:system/lib/libdmd.so \
+    vendor/huawei/rio/proprietary/lib64/libdmd.so:system/lib64/libdmd.so \
     vendor/huawei/rio/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
