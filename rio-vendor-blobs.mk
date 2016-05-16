@@ -1496,4 +1496,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/huawei/rio/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqcamerasvr-c++.so:system/vendor/lib/libqcamerasvr-c++.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/huawei/rio/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so
