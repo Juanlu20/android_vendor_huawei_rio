@@ -16,21 +16,24 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
-    shutdownlistener \
     TimeService
 
 PRODUCT_PACKAGES += \
+    cneapiclient \
+    com.qti.dpmframework \
+    com.quicinc.cne \
+    com.quicinc.wbc \
+    com.quicinc.wbcservice \
+    dpmapi \
     qcnvitems \
     qcrilhook
-
-PRODUCT_PACKAGES += \
-    libmm-abl
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    libmm-abl \
     libtime_genoff
 
 $(call inherit-product, vendor/huawei/rio/rio-vendor-blobs.mk)
