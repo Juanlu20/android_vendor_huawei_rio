@@ -16,15 +16,10 @@
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
+    shutdownlistener \
     TimeService
 
 PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.quicinc.cne \
-    com.quicinc.wbc \
-    com.quicinc.wbcservice \
-    dpmapi \
     qcnvitems \
     qcrilhook
 
