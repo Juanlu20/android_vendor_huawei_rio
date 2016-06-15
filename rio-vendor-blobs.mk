@@ -1514,4 +1514,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/huawei/rio/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
     vendor/huawei/rio/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/huawei/rio/proprietary/etc/firmware/T2A_fw.bin:system/etc/firmware/T2A_fw.bin
+    vendor/huawei/rio/proprietary/etc/firmware/T2A_fw.bin:system/etc/firmware/T2A_fw.bin \
+    vendor/huawei/rio/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/huawei/rio/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so
