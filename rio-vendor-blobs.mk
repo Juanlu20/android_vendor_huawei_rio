@@ -1344,7 +1344,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/huawei/rio/proprietary/bin/huawei_version:system/bin/huawei_version \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
