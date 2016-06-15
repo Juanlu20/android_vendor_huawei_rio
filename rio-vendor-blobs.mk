@@ -1269,14 +1269,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/rio/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/huawei/rio/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    vendor/huawei/rio/proprietary/bin/signinfolistener:system/bin/signinfolistener \
+    vendor/huawei/rio/proprietary/bin/teecd:system/bin/teecd \
     vendor/huawei/rio/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
     vendor/huawei/rio/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
     vendor/huawei/rio/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/rio/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
-    vendor/huawei/rio/proprietary/lib/hw/fingerprint.msm8916.so:system/lib/hw/fingerprint.msm8916.so \
-    vendor/huawei/rio/proprietary/lib/hw/fingerprintd.ex.so:system/lib/hw/fingerprintd.ex.so \
-    vendor/huawei/rio/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/huawei/rio/proprietary/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
+    vendor/huawei/rio/proprietary/lib64/libteec.so:system/lib64/libteec.so \
     vendor/huawei/rio/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
     vendor/huawei/rio/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
@@ -1475,9 +1474,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/huawei/rio/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
-    vendor/huawei/rio/proprietary/bin/teecd:system/bin/teecd \
-    vendor/huawei/rio/proprietary/lib/libteec.so:system/lib/libteec.so \
-    vendor/huawei/rio/proprietary/lib64/libteec.so:system/lib64/libteec.so \
     vendor/huawei/rio/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/huawei/rio/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
