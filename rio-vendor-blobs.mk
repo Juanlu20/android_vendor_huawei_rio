@@ -1346,6 +1346,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/oeminfo_nvm_server:system/bin/oeminfo_nvm_server \
+    vendor/huawei/rio/proprietary/bin/oem_sar_main:system/bin/oem_sar_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/rio/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/huawei/rio/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
@@ -1365,7 +1366,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/etc/pdc_RIO_for_nfc.txt:system/vendor/etc/pdc_RIO_for_nfc.txt \
     vendor/huawei/rio/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/huawei/rio/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/huawei/rio/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/huawei/rio/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/rio/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
@@ -1377,11 +1380,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/huawei/rio/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/huawei/rio/proprietary/bin/send_data_srv:system/bin/send_data_srv \
+    vendor/huawei/rio/proprietary/bin/ssr_diag:system/bin/ssr_diag \
+    vendor/huawei/rio/proprietary/lib64/libdiag_senddata_api.so:system/lib64/libdiag_senddata_api.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libqc-opt.so:system/vendor/lib64/libqc-opt.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
@@ -1397,6 +1404,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/huawei/rio/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/huawei/rio/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/huawei/rio/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
