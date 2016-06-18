@@ -1357,7 +1357,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscm.so.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
