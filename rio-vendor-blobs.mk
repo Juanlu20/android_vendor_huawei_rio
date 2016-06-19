@@ -1279,6 +1279,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/huawei/rio/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/huawei/rio/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
@@ -1287,6 +1288,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/huawei/rio/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/huawei/rio/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/huawei/rio/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/huawei/rio/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/huawei/rio/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/rio/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
