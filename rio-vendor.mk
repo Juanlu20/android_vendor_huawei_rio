@@ -20,7 +20,9 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
+    CNEService \
+    com.qualcomm.location \
+    dpmserviceapp
 
 PRODUCT_PACKAGES += \
     qcnvitems \
