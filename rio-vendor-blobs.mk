@@ -1403,24 +1403,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/bin/oem_sar_main:system/bin/oem_sar_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/rio/proprietary/bin/test_diag:system/bin/test_diag \
-    vendor/huawei/rio/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/huawei/rio/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/huawei/rio/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/huawei/rio/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/huawei/rio/proprietary/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/huawei/rio/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
     vendor/huawei/rio/proprietary/lib/hw/lights.msm8916.so:system/lib/hw/lights.msm8916.so \
     vendor/huawei/rio/proprietary/lib64/hw/lights.msm8916.so:system/lib64/hw/lights.msm8916.so \
