@@ -279,7 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_lg/hwsdcfg.xml:system/etc/camera/tornado/config/altek6010_imx278_lg/hwsdcfg.xml \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_liteon/TornadoI.ini:system/etc/camera/tornado/config/altek6010_imx278_liteon/TornadoI.ini \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_liteon/hwsdcfg.xml:system/etc/camera/tornado/config/altek6010_imx278_liteon/hwsdcfg.xml \
-    vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_sunny/TornadoI.ini:system/etc/camera/tornado/config/altek6010_imx278_sunnyg/TornadoI.ini \
+    vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_sunny/TornadoI.ini:system/etc/camera/tornado/config/altek6010_imx278_sunny/TornadoI.ini \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/altek6010_imx278_sunny/hwsdcfg.xml:system/etc/camera/tornado/config/altek6010_imx278_sunny/hwsdcfg.xml \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/imx214_liteon/TornadoI.ini:system/etc/camera/tornado/config/imx214_liteon/TornadoI.ini \
     vendor/huawei/rio/proprietary/etc/camera/tornado/config/imx214_liteon/hwsdcfg.xml:system/etc/camera/tornado/config/imx214_liteon/hwsdcfg.xml \
