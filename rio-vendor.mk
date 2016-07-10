@@ -29,8 +29,11 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
+    libhuawei_secure \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+    liboeminfo \
+    libqmi_oem_api
 
 PRODUCT_PACKAGES += \
     libmm-abl \

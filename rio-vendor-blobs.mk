@@ -1426,6 +1426,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/huawei/rio/proprietary/bin/hwnffserver:system/bin/hwnffserver \
+    vendor/huawei/rio/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
+    vendor/huawei/rio/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
+    vendor/huawei/rio/proprietary/lib/libsecure_boot_keybox.so:system/lib/libsecure_boot_keybox.so \
+    vendor/huawei/rio/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
+    vendor/huawei/rio/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
+    vendor/huawei/rio/proprietary/lib64/libsecure_boot_keybox.so:system/lib64/libsecure_boot_keybox.so \
     vendor/huawei/rio/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/huawei/rio/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -1467,16 +1474,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/rio/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
-    vendor/huawei/rio/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
-    vendor/huawei/rio/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
-    vendor/huawei/rio/proprietary/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
-    vendor/huawei/rio/proprietary/lib/libsecure_boot_keybox.so:system/lib/libsecure_boot_keybox.so \
-    vendor/huawei/rio/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
-    vendor/huawei/rio/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
-    vendor/huawei/rio/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
-    vendor/huawei/rio/proprietary/lib64/libqmi_oem_api.so:system/lib64/libqmi_oem_api.so \
-    vendor/huawei/rio/proprietary/lib64/libsecure_boot_keybox.so:system/lib64/libsecure_boot_keybox.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
