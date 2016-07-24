@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    hwnv \
     qcnvitems \
     qcrilhook
 
