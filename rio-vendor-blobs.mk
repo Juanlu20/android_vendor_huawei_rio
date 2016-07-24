@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/lib/libcamera_post_mediaserver.so:system/lib/libcamera_post_mediaserver.so \
     vendor/huawei/rio/proprietary/lib/libcamera_wrapper_algo_omron_makeup.so:system/lib/libcamera_wrapper_algo_omron_makeup.so \
     vendor/huawei/rio/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/huawei/rio/proprietary/lib/libcutill.so:system/lib/libcutill.so \
     vendor/huawei/rio/proprietary/lib/libDocBeauty.so:system/lib/libDocBeauty.so \
     vendor/huawei/rio/proprietary/lib/libFaceBeautyMeiwo.so:system/lib/libFaceBeautyMeiwo.so \
     vendor/huawei/rio/proprietary/lib/libFaceBeautyMeiwoJNI.so:system/lib/libFaceBeautyMeiwoJNI.so \
