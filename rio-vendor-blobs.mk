@@ -1438,9 +1438,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/huawei/rio/proprietary/bin/hwnffserver:system/bin/hwnffserver \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
-    vendor/huawei/rio/proprietary/bin/hwnffserver:system/bin/hwnffserver \
     vendor/huawei/rio/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
     vendor/huawei/rio/proprietary/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
     vendor/huawei/rio/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
