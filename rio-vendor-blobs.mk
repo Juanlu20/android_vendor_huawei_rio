@@ -1276,9 +1276,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/rio/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/rio/proprietary/lib64/libteec.so:system/lib64/libteec.so \
-    vendor/huawei/rio/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
-    vendor/huawei/rio/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/hw/gatekeeper.msm8916.so:system/vendor/lib64/hw/gatekeeper.msm8916.so \
     vendor/huawei/rio/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/rio/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/huawei/rio/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
@@ -1368,7 +1365,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
-    vendor/huawei/rio/proprietary/vendor/lib64/hw/keystore.msm8916.so:system/vendor/lib64/hw/keystore.msm8916.so \
     vendor/huawei/rio/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/rio/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/huawei/rio/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
