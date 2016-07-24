@@ -19,9 +19,11 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    ims \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
+    imscmlibrary \
     qcnvitems \
     qcrilhook
 
