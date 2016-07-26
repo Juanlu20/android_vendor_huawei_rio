@@ -1306,6 +1306,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/rio/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
     vendor/huawei/rio/proprietary/lib64/libteec.so:system/lib64/libteec.so \
+    vendor/huawei/rio/proprietary/lib64/hw/gatekeeper.msm8916.so:system/lib64/hw/gatekeeper.msm8916.so \
     vendor/huawei/rio/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/huawei/rio/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/huawei/rio/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
