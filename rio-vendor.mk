@@ -19,19 +19,15 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
-    ims \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    imscmlibrary \
     qcnvitems \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libhuawei_secure \
     libloc_api_v02 \
     libloc_ds_api \
-    liboeminfo \
     libqmi_oem_api
 
 PRODUCT_PACKAGES += \

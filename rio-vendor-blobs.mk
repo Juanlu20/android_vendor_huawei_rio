@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/lib64/libbtpower.so:system/lib64/libbtpower.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/huawei/rio/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/huawei/rio/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/huawei/rio/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/huawei/rio/proprietary/lib/libBestShot.so:system/lib/libBestShot.so \
     vendor/huawei/rio/proprietary/lib/libcamera_af.so:system/lib/libcamera_af.so \
     vendor/huawei/rio/proprietary/lib/libcamera_af_ATH.so:system/lib/libcamera_af_ATH.so \
@@ -1257,35 +1257,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/huawei/rio/proprietary/etc/firmware/RIO_miniBoot.bin:system/etc/firmware/RIO_miniBoot.bin \
     vendor/huawei/rio/proprietary/etc/firmware/RIO_TBM_Latour2.bin:system/etc/firmware/RIO_TBM_Latour2.bin \
-    vendor/huawei/rio/proprietary/bin/cnd:system/bin/cnd \
-    vendor/huawei/rio/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/huawei/rio/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/huawei/rio/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/huawei/rio/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/huawei/rio/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/huawei/rio/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/huawei/rio/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/huawei/rio/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/huawei/rio/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/huawei/rio/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/huawei/rio/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/huawei/rio/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/huawei/rio/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/huawei/rio/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/huawei/rio/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/huawei/rio/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -1394,28 +1365,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/huawei/rio/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/huawei/rio/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/huawei/rio/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/huawei/rio/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/huawei/rio/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/huawei/rio/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/huawei/rio/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/huawei/rio/proprietary/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/huawei/rio/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/huawei/rio/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/huawei/rio/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/huawei/rio/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -1439,14 +1388,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/huawei/rio/proprietary/bin/hwnffserver:system/bin/hwnffserver \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
-    vendor/huawei/rio/proprietary/lib/libhw_hal.so:system/lib/libhw_hal.so \
+    vendor/huawei/rio/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
+    vendor/huawei/rio/proprietary/lib/liboeminfo.so:system/lib/liboeminfo.so \
     vendor/huawei/rio/proprietary/lib/lib_oeminfo_interface.so:system/lib/lib_oeminfo_interface.so \
     vendor/huawei/rio/proprietary/lib/libqmi_nv_api.so:system/lib/libqmi_nv_api.so \
     vendor/huawei/rio/proprietary/lib/libsecure_boot_keybox.so:system/lib/libsecure_boot_keybox.so \
-    vendor/huawei/rio/proprietary/lib64/libhw_hal.so:system/lib64/libhw_hal.so \
+    vendor/huawei/rio/proprietary/lib64/libhuawei_secure.so:system/lib64/libhuawei_secure.so \
+    vendor/huawei/rio/proprietary/lib64/liboeminfo.so:system/lib64/liboeminfo.so \
     vendor/huawei/rio/proprietary/lib64/lib_oeminfo_interface.so:system/lib64/lib_oeminfo_interface.so \
     vendor/huawei/rio/proprietary/lib64/libqmi_nv_api.so:system/lib64/libqmi_nv_api.so \
     vendor/huawei/rio/proprietary/lib64/libsecure_boot_keybox.so:system/lib64/libsecure_boot_keybox.so \
@@ -1482,6 +1432,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/huawei/rio/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/huawei/rio/proprietary/global/ons/ons.bin:system/global/ons/ons.bin \
+    vendor/huawei/rio/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/huawei/rio/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/rio/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/rio/proprietary/bin/radish:system/bin/radish \
@@ -1493,11 +1444,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/huawei/rio/proprietary/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
     vendor/huawei/rio/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/huawei/rio/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/rio/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/huawei/rio/proprietary/lib64/libshim_ril.so:system/lib64/libshim_ril.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/huawei/rio/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
