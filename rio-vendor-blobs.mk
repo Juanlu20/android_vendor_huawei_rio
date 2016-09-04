@@ -1374,6 +1374,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/huawei/rio/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/huawei/rio/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
+    vendor/huawei/rio/proprietary/etc/permissions/com.gsma.services.nfc.xml:system/etc/permissions/com.gsma.services.nfc.xml \
+    vendor/huawei/rio/proprietary/framework/com.gsma.services.nfc.jar:system/framework/com.gsma.services.nfc.jar \
     vendor/huawei/rio/proprietary/vendor/etc/pdc_RIO_for_nfc.txt:system/vendor/etc/pdc_RIO_for_nfc.txt \
     vendor/huawei/rio/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/huawei/rio/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -1388,6 +1390,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/huawei/rio/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
+    vendor/huawei/rio/proprietary/bin/huawei_version:system/bin/huawei_version \
     vendor/huawei/rio/proprietary/bin/libqmi_oem_main:system/bin/libqmi_oem_main \
     vendor/huawei/rio/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/rio/proprietary/lib/libhuawei_secure.so:system/lib/libhuawei_secure.so \
