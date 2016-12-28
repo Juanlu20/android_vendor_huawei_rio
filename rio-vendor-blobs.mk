@@ -1447,11 +1447,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/rio/proprietary/lib64/libcrypto2.so:system/lib64/libcrypto2.so \
     vendor/huawei/rio/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/huawei/rio/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/rio/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
-    vendor/huawei/rio/proprietary/lib64/libshim_ril.so:system/lib64/libshim_ril.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/huawei/rio/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
