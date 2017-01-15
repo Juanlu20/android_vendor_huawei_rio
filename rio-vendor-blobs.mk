@@ -909,10 +909,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/huawei/rio/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/huawei/rio/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/huawei/rio/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/huawei/rio/proprietary/bin/signinfolistener:system/bin/signinfolistener \
     vendor/huawei/rio/proprietary/bin/teecd:system/bin/teecd \
-    vendor/huawei/rio/proprietary/lib64/hw/fingerprint.msm8916.so:system/lib64/hw/fingerprint.msm8916.so \
+    vendor/huawei/rio/proprietary/lib64/hw/fingerprint.vendor.msm8916.so:system/lib64/hw/fingerprint.vendor.msm8916.so \
     vendor/huawei/rio/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
     vendor/huawei/rio/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/rio/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
@@ -1059,15 +1058,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/rio/proprietary/bin/radish:system/bin/radish \
     vendor/huawei/rio/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/huawei/rio/proprietary/bin/rild:system/bin/rild \
     vendor/huawei/rio/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/rio/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/rio/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/huawei/rio/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/huawei/rio/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/rio/proprietary/lib64/libril.so:system/lib64/libril.so \
-    vendor/huawei/rio/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/huawei/rio/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/huawei/rio/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
