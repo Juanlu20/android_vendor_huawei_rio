@@ -1057,7 +1057,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/rio/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/rio/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/rio/proprietary/bin/radish:system/bin/radish \
-    vendor/huawei/rio/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/huawei/rio/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/rio/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/huawei/rio/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
